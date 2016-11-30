@@ -1,20 +1,4 @@
-
-@font-face {
-    font-family: 'Open Sans Semibold';
-    src: url("https://fonts.googleapis.com/css?family=Open+Sans:600");
-}
-@font-face {
-    font-family: 'Open Sans Bold';
-    src: url("https://fonts.googleapis.com/css?family=Open+Sans:700");
-}
-@font-face {
-    font-family: 'Open Sans Light';
-    src: url("https://fonts.googleapis.com/css?family=Open+Sans:300");
-}
-@font-face {
-    font-family: 'Sacramento';
-    src: url("https://fonts.googleapis.com/css?family=Open+Sans:Sacramento");
-}
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Arvo');
 
 * {
     -webkit-box-sizing: border-box;
@@ -22,52 +6,55 @@
 }
 
 body {
-    font-family: 'Sacramento', serif;
+    font-family: 'Arvo', serif;
     line-height: 1.75em;
-    font-size: 18px;
-    color: #f8f8f2;
-    background-color: #272822;
+    font-size: 16px;
+    color: #cfcfcf;
+    background-color: #303030;
 }
 
 h1,
 h2 {
-    font-family: 'Open Sans Bold', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1 {
     font-size: 1.875em;
     line-height: 2.125em;
+    color: #ededed;
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 1.5625em;
+    color: #e3e3e3;
 }
 
 h3 {
-    font-family: 'Sacramento', serif;
-    font-size: 1em;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2em;
     line-height: 1.7em;
     padding-top: 0.9375em;
     padding-bottom: 0.9375em;
-    border-bottom: 1px solid #D8D8D8;
-    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #4f4f4f;
+    border-top: 1px solid #4f4f4f;
+    color: #d9d9d9;
 }
 
 hr {
     height: 1px;
-    background-color: #D8D8D8;
+    background-color: #4f4f4f;
     border: none;
     width: 100%;
     margin: 0px;
 }
 
 a[href] {
-    color: #66d9ef;
+    color: #667788;
 }
 
 a[href]:hover {
-    color: #a6e225;
+    color: #a6b7c8;
 }
 
 img {
@@ -89,17 +76,17 @@ aside,
 
 .simple-date {
     display: inline-block;
-    font-family: 'Open Sans Light', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 18px;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-right: 1px solid #d8d8d8;
+    border-right: 1px solid #4f4f4f;
 }
 
 .simple-author {
     display: inline-block;
-    font-family: 'Open Sans Semibold', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 18px;
     color: #27AAE1;
     line-height: 22px;
@@ -109,7 +96,7 @@ aside,
 }
 
 .simple-container {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 20px;
